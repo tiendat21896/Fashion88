@@ -1,0 +1,125 @@
+@media only screen and (max-width: 768px) {
+
+    /* Header Start */
+
+    .header {
+        background-size: cover;
+        height: auto;
+        position: relative;
+    }
+    .header .menu__list {
+        padding: 2rem 1rem;
+    }
+    .header .menu__list li {
+        margin: 0;
+    }
+    .header .menu__list li a {
+        font-size: 1rem;
+    }
+    .header p {
+        font-size: 1.2rem;
+    }
+
+    /* Header End */
+
+    /* Banner Start */
+    .banner {
+        display: flex;
+    }
+    .banner .banner__left {
+        background-size: cover;
+        width: 50%;
+        height: auto;
+    }
+    .banner .banner__left p {
+        font-size: 1.5rem;
+    }
+    .banner .banner__right {
+        background-size: cover;
+        width: 50%;
+        height: 140px;
+    }
+    .banner .banner__right .item__text .item__text--1 {
+        font-size: 1.5rem;
+    }
+    .banner .banner__right .item__text .item__text--2 {
+        font-size: 1rem;
+    }
+
+    /* Banner End */
+
+    /* Section Start */
+
+    .image p {
+        padding: 1rem 0.35rem;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    /* Section End */
+
+    /* Footer Start */
+
+    .footer {
+        padding: 1rem;
+        margin: 0;
+        flex-direction: column;
+    }
+    .footer .footer__left {
+        padding: 0;
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .footer .footer__left p {
+        font-size: 1rem;
+    }
+    .footer .footer__left .form-group input {
+        max-width: 85%;
+        height: 3.7rem;
+    }
+
+    .footer .footer__left .form-group button {
+        width: 4.8rem;
+        height: 3.8rem;
+        color: white;
+        font-size: 1.7rem;
+        font-family: boldFont;
+        background-color: black;
+        border: none;
+        outline: none;
+        position: absolute;
+    }
+
+    .footer .footer__left .icon{
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    .footer .footer__left .icon i{
+        font-size: 2rem;
+        font-weight: bold;
+        padding-right: 1.5rem;
+    }
+
+    .footer .footer__right {
+        display: none;
+    }
+    .bottom__text {
+        margin-top: 0.5rem;
+        justify-content: start;
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0 0 1rem;
+        border-top: 1px solid #d1cdcd;
+    }
+    .bottom__text .border__right {
+        border: none;
+    }
+    .bottom__text span {
+        padding: 0.3rem 0;
+    }
+    .bottom__text span a {
+        letter-spacing: 0;
+    }
+    /* Footer End */
+}
